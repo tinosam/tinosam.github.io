@@ -287,5 +287,9 @@ Assigned to: ThemeForest
 	});
 		
 	});
+
+	// Canvas to background
+	// var canvas = document.getElementById("scene");
+	// document.body.style.background = "url(" + canvas.toDataURL() + ")";
 	
 })();

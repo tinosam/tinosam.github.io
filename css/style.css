@@ -259,25 +259,28 @@ input:focus, textarea:focus, select:focus, button:focus {
 	background-color: #000000;
 }
 .prt_home_wrapper{
-	background-image:url(../images/content/banner_bg.jpg);
+	/* background-image:url(../images/content/banner_bg.jpg); */
 	background-position: center center;
 	background-repeat:no-repeat;
 	background-size:cover;
 	position:relative;
 	overflow-y:auto;
     padding: 200px 0px;
+    background-color: #111 !important;
+    /* background: canvas(mybackground);
+    background-attachment: fixed; */
 }
 .prt_home_wrapper h1{
 	position:absolute;
 	top:50%;
-	font-size:150px;
+	font-size:95px;
 	color: #ffffff;
 	font-weight:bold;
 	background: url(../images/content/about.png) no-repeat;
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	/* -webkit-text-fill-color: transparent; */
     /* background-size: cover; */
-    background-position: -41px -85px;
+    /* background-position: -41px -85px; */
 }
 .prt_logo_wrapper img{
     position: fixed;
@@ -1402,7 +1405,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     padding-left: 50px;
 }
 .prt_home_wrapper h1 {
-    font-size: 120px;
+    font-size: 75px;
 	margin:0px;
 }
 }
@@ -1446,15 +1449,19 @@ input:focus, textarea:focus, select:focus, button:focus {
     margin: 0px auto;
 }
 .prt_home_wrapper h1 {
-    font-size: 90px;
+    font-size: 85px;
 	margin:0px;
 }
 }
 @media (max-width: 767px) {
 .prt_home_wrapper h1 {
-    font-size: 90px;
+    font-size: 75px;
 	margin:0px;
-	text-align: center;
+	/* text-align: center; */
+    text-align: left;
+    position: relative;
+    right: -37px;
+    bottom: 0;
 }
 .prt_profile_slider {
     padding-top: 0px;

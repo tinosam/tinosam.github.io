@@ -1596,3 +1596,16 @@ input:focus, textarea:focus, select:focus, button:focus {
     height: 900px;
 }
 }
+
+.prt_about_img img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);   
+    opacity: 0.9;
+}
+
+.prt_about_img img {
+    transition: 0.5s;
+    opacity: 0.7;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}

@@ -105,20 +105,20 @@ Assigned to: ThemeForest
 		margin:10,
 		autoplay:true,
 		nav:false,
-		dots:false,
+		dots:true,
 		responsive:{
 			0:{
 				items:1
 			},
 			600:{
-				items:3
+				items:4
 			},
 			1000:{
 				items:5
 			}
 		}
 	});
-	
+
 	// Portfolio popup Js
 	$('.popup-gallery').magnificPopup({
 		delegate: 'a.imageopen',

@@ -105,7 +105,7 @@ Assigned to: ThemeForest
 		margin:10,
 		autoplay:true,
 		nav:false,
-		dots:true,
+		dots:false,
 		responsive:{
 			0:{
 				items:1

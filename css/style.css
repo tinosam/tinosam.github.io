@@ -1434,14 +1434,14 @@ button:focus {
 .prt_portfolio_box {
     display: inline-block;
     width: 100%;
-    margin-bottom: 150px;
 }
 
 .prt_portfolio_box a {
     display: inline-block;
     width: 100%;
-    margin-bottom: 30px;
-    text-align: center;
+    /* margin-bottom: 30px;
+    text-align: center; */
+    color: #000;
 }
 
 .prt_portfolio_img {
@@ -1450,6 +1450,7 @@ button:focus {
     text-align: center;
     position: relative;
     overflow: hidden;
+    height: 250px;
     z-index: 1;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;

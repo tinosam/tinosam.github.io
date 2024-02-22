@@ -1,0 +1,19 @@
+{
+  "name": "tinosam.github.io",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify-css": "cleancss -o css/style.min.css css/style.css",
+    "uglify-js": "uglifyjs js/sphere.js -o js/sphere.min.js -m",
+    "uglify-js": "uglifyjs js/custom.js -o js/custom.min.js -m"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-css-cli": "^5.3.0",
+    "uglify-js": "^3.17.4"
+  }
+}
